@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="30-Day Stock EDA", layout="wide")
-st.title("📊 Advanced 30-Day Stock EDA")
+st.title("30-Day Stock EDA")
 
 # -----------------------------
 # Fixed Companies
@@ -133,3 +133,4 @@ if selected:
     vol_df = vol_df.sort_values(by="Volatility", ascending=False)
 
     st.write(vol_df)
+
